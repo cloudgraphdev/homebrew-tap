@@ -7,7 +7,7 @@ class Cg < Formula
   homepage "https://cloudgraph.dev"
   url "https://cli-assets.cloudgraph.dev/cg-v0.16.12/cg-v0.16.12-6a2697e-darwin-x64.tar.gz"
   sha256 "b313aa6427891cea4551b5c9c70f437a8d97d08533371e65a789ac56df8e54f2"
-  depends_on "cloudgraphdev/tap/cloudgraph-node" => "16.0.0"
+  depends_on "cloudgraphdev/tap/cg-node" => "16.0.0"
 
   def install
     inreplace "bin/cg", /^CLIENT_HOME=/, "export CG_OCLIF_CLIENT_HOME=#{lib/"client"}\nCLIENT_HOME="
