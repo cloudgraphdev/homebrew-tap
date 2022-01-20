@@ -46,10 +46,10 @@
   rm -rf cloudgraph
   rm -rf ~/.local/share/cloudgraph/cli
   if [ \$(command -v xz) ]; then
-    URL=https://cli-assets.cloudgraph.dev/heroku-\$OS-\$ARCH.tar.xz
+    URL=https://cli-assets.cloudgraph.dev/cg-\$OS-\$ARCH-.tar.xz
     TAR_ARGS="xJ"
   else
-    URL=https://cli-assets.cloudgraph.dev/heroku-\$OS-\$ARCH.tar.gz
+    URL=https://cli-assets.cloudgraph.dev/cg-\$OS-\$ARCH-.tar.gz
     TAR_ARGS="xz"
   fi
   echo "Installing CLI from \$URL"
