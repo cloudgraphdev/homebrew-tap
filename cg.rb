@@ -31,7 +31,7 @@ class Cg < Formula
   #         $ heroku autocomplete
   # EOS
   # end
-  # end 4
+  # end 2
 
   test do
     system bin/"cg", "version"
