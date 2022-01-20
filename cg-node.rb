@@ -2,7 +2,7 @@
 # Do not update this file directly;
 # Please update the template instead:
 # https://github.com/heroku/cli/blob/master/scripts/release/homebrew/templates/heroku-node.rb
-class CloudgraphNode < Formula
+class CgNode < Formula
   desc "node.js dependency for CloudGraph"
   homepage "https://cloudgraph.dev"
   url "https://nodejs.org/download/release/v12.21.0/node-v12.21.0-darwin-x64.tar.xz"
