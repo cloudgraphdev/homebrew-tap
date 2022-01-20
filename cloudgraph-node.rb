@@ -1,4 +1,4 @@
-class CloudgraphNode < Formula
+class CgNode < Formula
   desc "node.js dependency for CloudGraph"
   homepage "https://cloudgraph.dev"
   url "https://nodejs.org/download/release/v16.0.0/node-v16.0.0-darwin-x64.tar.xz"

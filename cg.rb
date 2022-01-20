@@ -2,7 +2,7 @@
 # Do not update this file directly;
 # Please update the template instead:
 # https://github.com/heroku/cli/blob/master/scripts/release/homebrew/templates/heroku.rb
-class Cloudgraph < Formula
+class Cg < Formula
   desc "Query your cloud and SaaS data with GraphQL"
   homepage "https://cloudgraph.dev"
   url "https://cli-assets.cloudgraph.dev/cg-v0.16.12/cg-v0.16.12-6a2697e-darwin-x64.tar.gz"
