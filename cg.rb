@@ -5,7 +5,7 @@
 class Cg < Formula
   desc "Query your cloud and SaaS data with GraphQL"
   homepage "https://cloudgraph.dev"
-  url "https://cli-assets.cloudgraph.dev/cg-v0.16.12/cg-v0.16.12-6a2697e-darwin-x64.tar.gz"
+  url "https://cli-assets.cloudgraph.dev/cg-v0.16.13/cg-v0.16.12-6a2697e-darwin-x64.tar.gz"
   sha256 "d433c764126519a09a7b3ced5b468be2a4016e4fa0323287a62499b01db89bc0"
   depends_on "cloudgraphdev/tap/cg-node" => "16.0.0"
 
