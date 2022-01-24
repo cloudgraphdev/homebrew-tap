@@ -11,6 +11,7 @@ class Cg < Formula
   def install
     inreplace "bin/cg", /^CLIENT_HOME=/, "export CG_OCLIF_CLIENT_HOME=#{lib/"client"}\nCLIENT_HOME="
     p Dir["*"]
+    p Dir["**/*"]
     libexec.install Dir["*"]
     bin.install_symlink libexec/"bin/cg"
 
