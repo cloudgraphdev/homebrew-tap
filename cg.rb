@@ -5,9 +5,9 @@
 class Cg < Formula
   desc "Query your cloud and SaaS data with GraphQL"
   homepage "https://cloudgraph.dev"
-  version "0.21.3"
-  url "https://cli-assets.cloudgraph.dev/cg-v0.21.3/cg-v0.21.3-99a5e73-darwin-x64.tar.gz"
-  sha256 "854d706d4cbee352d1af8869230df321164fc4e6db5bbbfc3bb533867b38609b"
+  version "0.21.3-beta.1"
+  url "https://cli-assets.cloudgraph.dev/cg-v0.21.3-beta.1/cg-v0.21.3-beta.1-1c89b72-darwin-x64.tar.gz"
+  sha256 "03b5132b66017b3a3417fc6fac3b50b120c9377d88461b8d4513a07398684af6"
 
   def install
     inreplace "bin/cg", /^CLIENT_HOME=/, "export CG_OCLIF_CLIENT_HOME=#{lib/"client"}\nCLIENT_HOME="
